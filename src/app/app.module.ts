@@ -16,7 +16,7 @@ import { StoreModule } from "./store/store.module";
     // FormsModule,
     // HttpModule
   ],
-  providers: [],
+  // providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
