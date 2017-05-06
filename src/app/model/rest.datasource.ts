@@ -52,11 +52,5 @@ export class RestDataSource {
         }
 
         return this.http.request(request).map(response => response.json());
-        
-        // return this.http.request(new Request({
-        //     method: verb,
-        //     url: this.baseURL + url,
-        //     body: body
-        // })).map(response => response.json());
     }
 }
